@@ -16,6 +16,7 @@ import React, {
   useEffect,
   useRef,
 } from "react";
+import { sideNavMap } from "../utils/mappers";
 
 export type ColorSchemeType =
   | "query"
@@ -117,7 +118,7 @@ export function SectionTypeLabel({
     <span
       className={`flex w-32 flex-row justify-center rounded-md p-1 font-bold text-base text-light ${solidColorBg(sectionType)}${className ? ` ${className}` : ""}`}
     >
-      {sectionType.toUpperCase()}
+      {sideNavMap[sectionType]}
     </span>
   );
 }
