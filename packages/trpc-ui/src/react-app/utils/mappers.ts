@@ -1,5 +1,5 @@
 export const sideNavMap = {
-  query: "Get",
+  query: "GET",
   mutation: "POST",
   router: "API",
   neutral: "Neutral",
