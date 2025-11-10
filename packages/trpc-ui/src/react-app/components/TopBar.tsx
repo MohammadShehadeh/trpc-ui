@@ -37,7 +37,7 @@ export function TopBar({
           rel="noreferrer"
         >
           <LogoSvg className="mr-2 h-10 w-10 rounded-lg" />
-          tRPC.ui()
+          TRPC API Documentation
         </a>
       </div>
       <RouterSearchTooltip />
